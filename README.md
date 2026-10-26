@@ -40,6 +40,11 @@ bun run typecheck
 bun run stub           # look at it, framed, without Kehikot
 ```
 
+If the module needs a newer Kehikot than someone has, or is too old for theirs,
+Kehikot says so in the module's container, with the button that updates the right
+one. It works this out from the manifest, so there is nothing to write for it
+([Whether a module and a host fit](https://github.com/Jalez/kehikko-protocol/blob/main/docs/fit.md)).
+
 How it is built and released, and the rules a change keeps: [CLAUDE.md](CLAUDE.md).
 The whole guide: [Building a module](https://github.com/Jalez/kehikko-protocol/blob/main/docs/building-a-module.md).
 
