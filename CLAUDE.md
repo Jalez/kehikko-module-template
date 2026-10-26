@@ -38,6 +38,14 @@ what follows is how THIS repository is built, and the rules a change here keeps.
   notices of your own.
 - **Ask only for what is called.** Each method needs its capability in
   `declares.uses`; nothing else goes there.
+- **Kehikot says when it and the module do not fit.** Write no code for this.
+  From protocol 2.22.0 Kehikot compares the manifest (`declares.uses`, the
+  declarations, the protocol range) with its own protocol, and draws "<Module>
+  needs a newer Kehikot" or "<Module> needs an update" in the container, with
+  the button that fixes it. Keep `declares.uses` true, and the notice will be
+  too. A call the host is too old for comes back `host-too-old`; you may show
+  `FIT_SAYS.tooOld(since)` beside the control, after
+  `hostTooOld(error)` (`kehikot-module-protocol/client`).
 - **Plain language.** Every sentence a person reads says what happened and
   what to do, in their words: no ids, codes or stack traces.
 
