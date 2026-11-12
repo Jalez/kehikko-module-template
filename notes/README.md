@@ -8,7 +8,7 @@ How to write them: the rules for the Kehikot app's own notes,
 [kehikko-desktop's CLAUDE.md, "Release notes"](https://github.com/Jalez/kehikko-desktop/blob/main/CLAUDE.md#release-notes),
 from this module's side:
 
-- 1–5 bullets, each `- **Short bold lead.** One or two plain sentences.`
+- First line `Kind: breaking | feature | fix` (CI checks the version against it), then 1–5 bullets, each `- **Short bold lead.** One or two plain sentences.`
 - What a person sees in this module, can now do, or no longer suffers.
 - No commit hashes, PR numbers, file or function names, protocol versions,
   install text or hype. Never invent.
